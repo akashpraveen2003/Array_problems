@@ -3,6 +3,17 @@ package basic_array_problems_1;
 import java.util.Arrays;
 import java.util.Scanner;
 
+/**
+Given an integer array A of size N. In one second, you can increase the value of one element by 1.
+
+Find the minimum time in seconds to make all elements of the array equal.
+
+Input
+A = [2, 4, 1, 3, 2]
+
+Output
+8
+*/
 public class Time_to_Equality {
 
 	private static int make_array_elements_equal(int[] array) {
