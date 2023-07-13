@@ -2,6 +2,18 @@ package basic_array_problems_1;
 
 import java.util.Scanner;
 
+/**
+You are given an integer array A. You have to find the second largest element/value in the array or report that no such element exists.
+
+Input
+	A = [2, 1, 2]
+Output
+	1
+Input
+	A = [2]
+Output
+	-1
+*/
 public class Second_largest {
 	private static int  second_largest_element(int[] array) {
 		// TODO Auto-generated method stub
